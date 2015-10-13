@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E355A1BC9C756008DED12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E35591BC9C756008DED12 /* AppDelegate.swift */; };
+		040E355F1BC9C756008DED12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E355D1BC9C756008DED12 /* Main.storyboard */; };
+		040E35611BC9C756008DED12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E35601BC9C756008DED12 /* Assets.xcassets */; };
+		040E35641BC9C756008DED12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E35621BC9C756008DED12 /* LaunchScreen.storyboard */; };
+		040E356C1BC9EC8C008DED12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E356B1BC9EC8C008DED12 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A3321BCA3AB900476195 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A3311BCA3AB900476195 /* NavViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A3341BCA3B7200476195 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A3331BCA3B7200476195 /* LoginManager.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A3361BCB6AA800476195 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A3351BCB6AA800476195 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A33C1BCC438500476195 /* NewAccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A33B1BCC438500476195 /* NewAccountManager.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A33E1BCC439500476195 /* ForgotPasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A33D1BCC439500476195 /* ForgotPasswordManager.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A3401BCC444D00476195 /* StormpathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A33F1BCC444D00476195 /* StormpathManager.swift */; settings = {ASSET_TAGS = (); }; };
+		04C5A3441BCC651900476195 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A3431BCC651900476195 /* ForgotPasswordViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040E35561BC9C756008DED12 /* Stormpath Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stormpath Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E35591BC9C756008DED12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040E355E1BC9C756008DED12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040E35601BC9C756008DED12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040E35631BC9C756008DED12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040E35651BC9C756008DED12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E356B1BC9EC8C008DED12 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04C5A3311BCA3AB900476195 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		04C5A3331BCA3B7200476195 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		04C5A3351BCB6AA800476195 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		04C5A33B1BCC438500476195 /* NewAccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountManager.swift; sourceTree = "<group>"; };
+		04C5A33D1BCC439500476195 /* ForgotPasswordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordManager.swift; sourceTree = "<group>"; };
+		04C5A33F1BCC444D00476195 /* StormpathManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StormpathManager.swift; sourceTree = "<group>"; };
+		04C5A3431BCC651900476195 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040E35531BC9C756008DED12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040E354D1BC9C756008DED12 = {
+			isa = PBXGroup;
+			children = (
+				040E35581BC9C756008DED12 /* Stormpath Demo */,
+				040E35571BC9C756008DED12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040E35571BC9C756008DED12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040E35561BC9C756008DED12 /* Stormpath Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040E35581BC9C756008DED12 /* Stormpath Demo */ = {
+			isa = PBXGroup;
+			children = (
+				040E35591BC9C756008DED12 /* AppDelegate.swift */,
+				04C5A3371BCC42E600476195 /* Controllers */,
+				04C5A3381BCC42FA00476195 /* Models */,
+				04C5A3391BCC432200476195 /* Views */,
+				04C5A33A1BCC433A00476195 /* Supporting Files */,
+			);
+			path = "Stormpath Demo";
+			sourceTree = "<group>";
+		};
+		04C5A3371BCC42E600476195 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				040E356B1BC9EC8C008DED12 /* LoginViewController.swift */,
+				04C5A3351BCB6AA800476195 /* CreateAccountViewController.swift */,
+				04C5A3311BCA3AB900476195 /* NavViewController.swift */,
+				04C5A3431BCC651900476195 /* ForgotPasswordViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04C5A3381BCC42FA00476195 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04C5A3331BCA3B7200476195 /* LoginManager.swift */,
+				04C5A33B1BCC438500476195 /* NewAccountManager.swift */,
+				04C5A33D1BCC439500476195 /* ForgotPasswordManager.swift */,
+				04C5A33F1BCC444D00476195 /* StormpathManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04C5A3391BCC432200476195 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				040E355D1BC9C756008DED12 /* Main.storyboard */,
+				040E35621BC9C756008DED12 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		04C5A33A1BCC433A00476195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040E35601BC9C756008DED12 /* Assets.xcassets */,
+				040E35651BC9C756008DED12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040E35551BC9C756008DED12 /* Stormpath Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E35681BC9C756008DED12 /* Build configuration list for PBXNativeTarget "Stormpath Demo" */;
+			buildPhases = (
+				040E35521BC9C756008DED12 /* Sources */,
+				040E35531BC9C756008DED12 /* Frameworks */,
+				040E35541BC9C756008DED12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stormpath Demo";
+			productName = "Stormpath Demo";
+			productReference = 040E35561BC9C756008DED12 /* Stormpath Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040E354E1BC9C756008DED12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Byteware LLC";
+				TargetAttributes = {
+					040E35551BC9C756008DED12 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = BCKNZ6J69F;
+					};
+				};
+			};
+			buildConfigurationList = 040E35511BC9C756008DED12 /* Build configuration list for PBXProject "Stormpath Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040E354D1BC9C756008DED12;
+			productRefGroup = 040E35571BC9C756008DED12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040E35551BC9C756008DED12 /* Stormpath Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040E35541BC9C756008DED12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E35641BC9C756008DED12 /* LaunchScreen.storyboard in Resources */,
+				040E35611BC9C756008DED12 /* Assets.xcassets in Resources */,
+				040E355F1BC9C756008DED12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040E35521BC9C756008DED12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C5A3361BCB6AA800476195 /* CreateAccountViewController.swift in Sources */,
+				040E356C1BC9EC8C008DED12 /* LoginViewController.swift in Sources */,
+				04C5A3341BCA3B7200476195 /* LoginManager.swift in Sources */,
+				04C5A3321BCA3AB900476195 /* NavViewController.swift in Sources */,
+				04C5A33E1BCC439500476195 /* ForgotPasswordManager.swift in Sources */,
+				04C5A3441BCC651900476195 /* ForgotPasswordViewController.swift in Sources */,
+				04C5A33C1BCC438500476195 /* NewAccountManager.swift in Sources */,
+				04C5A3401BCC444D00476195 /* StormpathManager.swift in Sources */,
+				040E355A1BC9C756008DED12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040E355D1BC9C756008DED12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E355E1BC9C756008DED12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040E35621BC9C756008DED12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E35631BC9C756008DED12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040E35661BC9C756008DED12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040E35671BC9C756008DED12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040E35691BC9C756008DED12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Stormpath Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BytewareApps.Stormpath-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		040E356A1BC9C756008DED12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Stormpath Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BytewareApps.Stormpath-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040E35511BC9C756008DED12 /* Build configuration list for PBXProject "Stormpath Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E35661BC9C756008DED12 /* Debug */,
+				040E35671BC9C756008DED12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E35681BC9C756008DED12 /* Build configuration list for PBXNativeTarget "Stormpath Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E35691BC9C756008DED12 /* Debug */,
+				040E356A1BC9C756008DED12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040E354E1BC9C756008DED12 /* Project object */;
+}
